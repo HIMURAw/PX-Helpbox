@@ -14,19 +14,84 @@ Config.Locales = {
 
 -- Kutular ve içinden kesin olarak çıkacak eşyalar
 Config.Boxes = {
-    ['pistol_box'] = {
-        label = 'Pistol Kutusu',
+    ['brownin_box'] = {
+        label = 'Brownin Kutusu',
         items = {
-            { name = 'water', amount = 1 },
-            { name = 'bandage', amount = 2 },
-            { name = 'bread', amount = 1 }
+            { name = 'weapon_pistol', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
         }
     },
-    ['medic_box'] = {
-        label = 'Medikal Kutusu',
+    ['draco_box'] = {
+        label = 'Draco Kutusu',
         items = {
-            { name = 'bandage', amount = 3 },
-            { name = 'medkit', amount = 1 }
+            { name = 'weapon_compactrifle', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
+        }
+    },
+    ['shotgun_box'] = {
+        label = 'Shotgun Kutusu',
+        items = {
+            { name = 'weapon_pumpshotgun', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
+        }
+    },
+    ['heavysniper_box'] = {
+        label = 'Heavy Sniper Kutusu',
+        items = {
+            { name = 'weapon_heavysniper', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
+        }
+    },
+    ['ak47_box'] = {
+        label = 'AK47 Kutusu',
+        items = {
+            { name = 'weapon_assaultrifle', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
+        }
+    },
+    ['revolver_box'] = {
+        label = 'Revolver Kutusu',
+        items = {
+            { name = 'weapon_revolver', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
+        }
+    },
+    ['tommygun_box'] = {
+        label = 'Tommy Gun Kutusu',
+        items = {
+            { name = 'weapon_gusenberg', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
+        }
+    },
+    ['minismg_box'] = {
+        label = 'Mini SMG Kutusu',
+        items = {
+            { name = 'weapon_minismg', amount = 1 },
+            { name = 'bandage', amount = 20 },
+            { name = 'armor', amount = 10 },
+            { name = 'bread', amount = 5 },
+            { name = 'water', amount = 5 }
         }
     }
 }
@@ -36,7 +101,23 @@ Config.EventItems = {
     ['water'] = true,
     ['bandage'] = true,
     ['bread'] = true,
-    ['medkit'] = true
+    ['armor'] = true,
+    ['weapon_pistol'] = true,
+    ['weapon_compactrifle'] = true,
+    ['weapon_pumpshotgun'] = true,
+    ['weapon_heavysniper'] = true,
+    ['weapon_assaultrifle'] = true,
+    ['weapon_revolver'] = true,
+    ['weapon_gusenberg'] = true,
+    ['weapon_minismg'] = true,
+    ['brownin_box'] = true,
+    ['draco_box'] = true,
+    ['shotgun_box'] = true,
+    ['heavysniper_box'] = true,
+    ['ak47_box'] = true,
+    ['revolver_box'] = true,
+    ['tommygun_box'] = true,
+    ['minismg_box'] = true
 }
 
 -- Admin yetkisi kontrolü için kullanılan grup (QB/ESX uyumlu olması için server tarafında kontrol edilecek)

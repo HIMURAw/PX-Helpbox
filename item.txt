@@ -1,0 +1,80 @@
+	["brownin_box"] = {
+        label = "Brownin Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Brownin Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["draco_box"] = {
+        label = "Draco Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Draco Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["shotgun_box"] = {
+        label = "Shotgun Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Shotgun Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["heavysniper_box"] = {
+        label = "Heavy Sniper Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Heavy Sniper Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["ak47_box"] = {
+        label = "AK47 Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "AK47 Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["revolver_box"] = {
+        label = "Revolver Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Revolver Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["tommygun_box"] = {
+        label = "Tommy Gun Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Tommy Gun Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
+    ["minismg_box"] = {
+        label = "Mini SMG Kutusu",
+        weight = 2500,
+        stack = false,
+        close = false,
+        description = "Mini SMG Kutusu",
+        client = {
+            image = "kit.png",
+        }
+    },
